@@ -13,4 +13,7 @@ public class ronda {
 	        return total;
 
 }
+	public  comparar() {
+		
+	}
 }

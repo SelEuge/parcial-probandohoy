@@ -25,4 +25,10 @@ public class frame {
 		assertEquals(70, juego.puntaje());
 	}
 
+	@Test
+	public void plenoTest() {
+		ronda ronda = new ronda();
+		int rond []= {10,0};
+		assertEquals(rond, ronda.comparar());		
+	}
 }
