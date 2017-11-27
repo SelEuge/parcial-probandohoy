@@ -1,7 +1,11 @@
 package Topicos.par;
 
 public class ronda {
-	int ronda [] = {3 , 5};
+	int ronda [] = {10 , 0};
+	
+public int[] getRonda() {
+	return this.ronda;
+}
 	
 	
 	public int sumar() {
@@ -13,7 +17,5 @@ public class ronda {
 	        return total;
 
 }
-	public  comparar() {
-		
-	}
+	
 }

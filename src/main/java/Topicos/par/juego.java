@@ -10,7 +10,8 @@ public class juego {
            total += juego[contador];
         }
        return total;
-	
 
 }
+	
+	
 }

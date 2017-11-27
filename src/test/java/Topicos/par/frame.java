@@ -15,7 +15,7 @@ public class frame {
 	@Test
 	public void frameTest(){
 		ronda ronda = new ronda();
-		assertEquals(8, ronda.sumar());		
+		assertEquals(10, ronda.sumar());		
 		
 	}
 	
@@ -28,7 +28,9 @@ public class frame {
 	@Test
 	public void plenoTest() {
 		ronda ronda = new ronda();
-		int rond []= {10,0};
-		assertEquals(rond, ronda.comparar());		
+		int[] esperado= {10, 0};
+		assertArrayEquals(esperado, ronda.getRonda());		
 	}
+	
+	
 }
