@@ -18,5 +18,11 @@ public class frame {
 		assertEquals(8, ronda.sumar());		
 		
 	}
+	
+	@Test
+	public void juegoTest() {
+		juego juego = new juego();
+		assertEquals(100, juego.puntaje());
+	}
 
 }
