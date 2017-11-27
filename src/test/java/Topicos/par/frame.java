@@ -32,5 +32,13 @@ public class frame {
 		assertArrayEquals(esperado, ronda.getRonda());		
 	}
 	
+	public void juegoExtra() {
+		juego juego = new juego();	
+		boolean res = juego.extra();
+		assertTrue(res);		
+			
+	}
+	
+	
 	
 }
