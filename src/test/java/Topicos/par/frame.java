@@ -6,20 +6,15 @@ import org.junit.Test;
 
 public class frame {
 
-	//@Test
-	//public void test() {
-		//fail("Not yet implemented");
-		
-	//}
+
 	
 	@Test
 	public void frameTest(){
 		ronda ronda = new ronda();
 		assertEquals(10, ronda.sumar());		
-		
-	}
-	
-	@Test
+
+	@Test	
+
 	public void juegoTest() {
 		juego juego = new juego();
 		assertEquals(72, juego.puntaje());
@@ -32,7 +27,8 @@ public class frame {
 		assertArrayEquals(esperado, ronda.getRonda());		
 	}
 	
-	public void juegoExtra() {
+	@Test
+	public void juegoExtraTest() {
 		juego juego = new juego();	
 		boolean res = juego.extra();
 		assertTrue(res);		
@@ -41,4 +37,8 @@ public class frame {
 	
 	
 	
+
+		
+	}
+
 }
