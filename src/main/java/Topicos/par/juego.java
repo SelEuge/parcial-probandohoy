@@ -1,17 +1,17 @@
 package Topicos.par;
 
 public class juego {
-	int juego [] = {5,6,7,3,8,9,9,7,9,7};	
+	int [] [] juego = {{2,3},{4,2},{3,4},{2,1},{3,5},{5,4},{5,4},{6,3},{4,3},{4,5}};
+			
 	
-	public int puntaje() {
-	     int total = 0;
-       // sumar el valor de cada elemento al total
-       for (int contador = 0; contador < juego.length; contador++) {
-           total += juego[contador];
-        }
-       return total;
+		public int puntaje() { 
+			int puntaje = 0; 
+			int [] [] matriz = {{2,3},{4,2},{3,4},{2,1},{3,5},{5,4},{5,4},{6,3},{4,3},{4,5}};
+			for (int fila = 0; fila < matriz.length; fila++) 
+			for (int columna = 0; columna < matriz[fila].length; columna++) 
+			puntaje += matriz[fila][columna]; 
+			return puntaje; 
+			}
+}
+	
 
-}
-	
-	
-}

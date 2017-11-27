@@ -22,7 +22,7 @@ public class frame {
 	@Test
 	public void juegoTest() {
 		juego juego = new juego();
-		assertEquals(70, juego.puntaje());
+		assertEquals(72, juego.puntaje());
 	}
 
 	@Test
